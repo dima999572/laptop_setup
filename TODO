@@ -1,0 +1,10 @@
+### Check and Install vault
+# if ! command -v vault &> /dev/null; then
+#   echo "vault not found, installing..."
+#   brew tap hashicorp/tap
+#   brew install hashicorp/tap/vault
+# else
+#   echo "vault is already installed"
+# fi
+### SOME ERRORS FACED, TODO - FIX
+### I CAN INSTALL BINARY, MOVE IT TO THE /usr/local/bin

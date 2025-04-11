@@ -36,7 +36,8 @@ packages=(
   "base64"
 )
 
-
 for package in "${packages[@]}"; do
   install_brew_package "$package"
 done
+
+install_kubectl

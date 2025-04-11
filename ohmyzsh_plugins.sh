@@ -22,11 +22,11 @@ install plugin() {
   fi
 }
 
+
 plugins=(
     "zsh-autosuggestions https://github.com/zsh-users/zsh-autosuggestions",
     "zsh-syntax-highlighting https://github.com/zsh-users/zsh-syntax-highlighting"
 )
-
 
 for plugin in "${plugins[@]}"; do
   plugin_name=$(echo $plugin | awk '{print $1}')
