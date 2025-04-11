@@ -1,3 +1,4 @@
+#!/bin/bash
 
 install_brew_package() {
   local package_name=$1
@@ -26,6 +27,7 @@ install_kubectl() {
 
 
 packages=(
+  "zsh"
   "git"
   "minikube"
   "helm"

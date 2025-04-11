@@ -1,3 +1,4 @@
+#!/bin/bash
 
 add_aliases() {
   local alias_path="ZSH_CUSTOM/aliases.zsh"
