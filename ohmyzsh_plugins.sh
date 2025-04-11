@@ -1,3 +1,5 @@
+#!/bin/bash
+
 install plugin() {
   local plugin_name=$1
   local plugin_url=$2
